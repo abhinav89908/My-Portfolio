@@ -33,13 +33,13 @@
       .timeline, .skill{
         background-color: #1f1f1f !important;
       }
+      #aboutme .container{
+        padding: 50px 40px;
+      }
     </style>
     <title>Resume</title>
 </head>
 <body>
-  <!-- <div className='container-fluid nav_bg'>
-    <div className='row'>
-        <div className='col-8 mx-auto mt-5 mb-5'> -->
   <!-- 
     NAVBAR
    -->
@@ -80,7 +80,11 @@
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+      <section
+      class="about full-screen d-lg-flex justify-content-center align-items-center"
+      id="aboutme"
+    >
+      <div class="container">
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
@@ -243,26 +247,12 @@
                 <div class="skill-progress-fill" style="width: 70%"></div>
               </div>
             </li>
-
-            <!-- <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Public Speaking</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%"></div>
-              </div> -->
             </li>
           </ul>
         </section>
-        <!-- <button class="form-btn" type="submit" id='resume'
-          onclick="window.location.href='https://drive.google.com/file/d/1lcIa1yOBXS_G1kfclaUzXOZQ9EBiMLn7/view?usp=sharing'"
-          data-form-btn>
-          <ion-icon name="Download"></ion-icon>
-          <span>Download Resume</span>
-        </button> -->
-      </article>
+      </div>
+      </section>
+
 <!-- </div>
 </div>
 </div> -->
@@ -285,14 +275,14 @@
     <!--
             - ionicon link
         -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
 
 
 </body>
